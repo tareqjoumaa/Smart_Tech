@@ -1,0 +1,38 @@
+ # !!!!!! Customer paths !!!!!
+
+    # list of Customers
+    path(http://127.0.0.1:8000/api/components/user/)
+    # add of Customer
+    path(http://127.0.0.1:8000/api/components/add_user/),
+    # update customer info
+    path(http://127.0.0.1:8000/api/components/update_user/<str:pk>/),
+    # delete Customers
+    path(http://127.0.0.1:8000/api/components/delete_user/<str:pk>/),
+    # !!!!!! login paths !!!!!
+
+    # register new user
+    path(http://127.0.0.1:8000/api/components/register/),
+    # login page
+    path(http://127.0.0.1:8000/api/components/login/),
+
+    # !!!!!! manger paths !!!!!
+
+    # list of mangers
+    path(http://127.0.0.1:8000/api/components/manger/),
+    # create new mangers
+    path(http://127.0.0.1:8000/api/components/add_manger/),
+    # update mangers info
+    path(http://127.0.0.1:8000/api/components/update_manger/<str:pk>/),
+    # delete mangers
+    path(http://127.0.0.1:8000/api/components/delete_manger/<str:pk>/),
+
+    # !!!!!! manger paths !!!!!
+
+    # list of employees
+    path(http://127.0.0.1:8000/api/components/employee/),
+    # create new employees
+    path(http://127.0.0.1:8000/api/components/add_employee/),
+    # update employees info
+    path(http://127.0.0.1:8000/api/components/update_employee/<str:pk>/),
+    # delete employees
+    path(http://127.0.0.1:8000/api/components/delete_employee/<str:pk>/),
